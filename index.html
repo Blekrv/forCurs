@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .root{
-            display: flex;
-            justify-content: space-around;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/206d950d2c.js" crossorigin="anonymous"></script>
+    <title>Some News</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="root"></div>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <ul class="col-12 d-flex flex-row justify-content-around" id="categories">
+                    <li class="btn btn-danger" id="business">Бізнес</li>
+                    <li class="btn btn-danger" id="entertaiment">Розваги</li>
+                    <li class="btn btn-danger" id="health">Здоров'я</li>
+                    <li class="btn btn-danger" id="science">Наука</li>
+                    <li class="btn btn-danger" id="sport">Спорт</li>
+                    <li class="btn btn-danger" id="technology">Технології</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+     <div id="root"></div>
     <script src="main.js"></script>
 </body>
 </html>
